@@ -32,9 +32,13 @@ export default function Login() {
       }
 
       navigate('/estudiantes');
-    } catch (err) {
-      setErrorMsg(err.response?.data?.mensaje || 'Credenciales inválidas o error de conexión');
-    }
+} catch (err) {
+    setErrorMsg(
+        err.response?.data?.error ||
+        err.response?.data?.mensaje ||
+        'Error de conexión con el servidor'
+    );
+}
   };
 
   return (
