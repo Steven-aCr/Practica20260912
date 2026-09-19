@@ -50,4 +50,6 @@ export const router = createBrowserRouter([
     path: '*',
     element: <Navigate to="/estudiantes" replace />,
   },
-]);
+],{
+  basename: "/Practica20260912"
+});
