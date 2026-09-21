@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Steven-aCr.github.io/Practica20260912",
+  "homepage": "https://steven-acr.github.io/Practica20260912",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
